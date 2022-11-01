@@ -1,7 +1,7 @@
 import { initializeApp } from 'firebase/app';
 import { getFirestore } from 'firebase/firestore'
 
-// TODO: Replace the following with your app's Firebase project configuration
+
 const firebaseConfig = {
     apiKey: "AIzaSyAW5TH53-34k2Qqom_-vYKouMbwmkhPHhA",
   authDomain: "salman-b619f.firebaseapp.com",
@@ -13,5 +13,5 @@ const firebaseConfig = {
 };
 
 export const app = initializeApp(firebaseConfig);
-// MARK: Firestore Reference
+
 export const db = getFirestore(app);
